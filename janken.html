@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>janken</title>
+    <link rel="stylesheet" href="janken.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <img class="main-icon" src="images/6851361.png" alt="">
+      <div class="main-title">Rock Paper Scissor</div>
+    </header>
+
+    <!-- scoreboard -->
+    <div class="scoreboard">
+      <div id="user-label" class="badge">user</div>
+      <div id="computer-label" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <!-- result -->
+    <div class="result">
+      <p>Get Ready!</p>
+    </div>
+
+    <!-- choices -->
+    <div class="choices">
+      <div>
+        <button class="button" id="r"><img class="rock" src="images/icons8-rock-50.png"></button>
+        <button class="button" id="p"><img class="paper" src="images/icons8-paper-64.png"></button>
+        <button class="button" id="s"><img class="scissor" src="images/icons8-scissor-32.png"></button>
+      </div>
+
+      <div class="action-message">Make your move</div>
+    </div>
+    <script src="janken.js"></script>
+  </body>
+</html>
